@@ -1,5 +1,5 @@
 import React from 'react'
-
+import image4 from './group image.jpg'
 export default function About() {
   return (
       <div className="py-16 bg-white">
@@ -7,7 +7,7 @@ export default function About() {
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="./src/components/about/group image.jpg"
+                          src={image4}
                           alt="image"
                       />
                   </div>
