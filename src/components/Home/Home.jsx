@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-
+import image1 from './image1.jpeg'
+import image2 from './image2.jpeg'
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -31,12 +32,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="./src/components/home/image1.jpeg" alt="image1" />
+                    <img className="w-96" src={image1} alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="./src/components/home/image2.jpeg" alt="image2" />
+                <img className="sm:w-96 w-48" src={image2} alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
